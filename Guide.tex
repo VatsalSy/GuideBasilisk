@@ -26,7 +26,7 @@
 \maketitle
 \begin{abstract}
 This document is a review and guide to the installation and working of Basilisk \Colorhref{http://basilisk.fr/}{(link)}, written by St\'ephane Popinet and his group. These notes are for personal use only, and detailed guide could be found at \Colorhref{http://basilisk.fr/Tutorial}{$<$link$>$}.\\\par 
-Regarding this file: Since basilisk is still in the early stages of development, the facts written in this document are subject to change. If you find any information here outdated or incomplete, please let me know.
+Regarding this file: Since basilisk is still in the early stages of development, the facts written in this document are subject to change. If you find any information here outdated or incomplete, please let me know. You can also clone this repository (\Colorhref{https://github.com/VatsalSy/GuideBasilisk}{https://github.com/VatsalSy/GuideBasilisk}), make changes and push it.
 \end{abstract}
 \section{Installing Basilisk}
 Installation is quite easy. There are two ways: Using darcs OR using tarball. I prefer the first one (darcs) because it allows to easily pull any update that occurs in Basilisk. The steps of this section are taken from \Colorhref{http://basilisk.fr/src/INSTALL}{http://basilisk.fr/src/INSTALL}. They are self-explanatory I have included them here, just for the sake of completion. 
@@ -81,7 +81,7 @@ Another method would be to use the following (recommended for laptops), the abov
 The following is required for both the above versions:\\
 {\color{red}vatsal@cloneMachine:$\sim\$$} sudo apt-get install python-pil.imagetk
 \subsubsection{bview}
-Add this line at the end of config.gcc, depending on the type of machine and dependency selected:\\
+\textbf{(Optional)} Add this line at the end of config.gcc, depending on the type of machine and dependency selected:\\
 Osmesa (Cluster):
 \begin{verbatim}
 OPENGLIBS = -lfb_osmesa -lGLU -lOSMesa
@@ -95,5 +95,9 @@ Then do this:\\
 {\color{red}vatsal@cloneMachine:$\sim\$$} make bview-servers\\
 For a typical bview use and environment, follow the example at:\Colorhref{http://basilisk.fr/src/bview}{http://basilisk.fr/src/bview}
 \section{A typical code}
+A good place to start understanding Basilisk would be \Colorhref{http://basilisk.fr/Tutorial}{http://basilisk.fr/Tutorial}. Here, I have added the case of liquid jet atomization. I have tried to compare and contrast this case with the famous jet atomization case simulated using gerris (which we are more familiar with).\\
+\begin{center}
+\textbf{\Huge Under Preparation}
+\end{center}
 
 \end{document}

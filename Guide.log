@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  16 FEB 2018 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  16 FEB 2018 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,7 +431,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
-<Figure1.png, id=47, 614.295pt x 81.30376pt>
+<Figure1.png, id=48, 614.295pt x 81.30376pt>
 File: Figure1.png Graphic file (type png)
  <use Figure1.png>
 Package pdftex.def Info: Figure1.png used on input line 41.
@@ -439,22 +439,27 @@ Package pdftex.def Info: Figure1.png used on input line 41.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figure1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Guide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Guide.out' has not changed.
 (rerunfilecheck)             Checksum: 740CA799C984A1E2CF9A7ACA21BEF697;1587.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 11296 strings out of 493029
- 155978 string characters out of 6136233
+ 11298 strings out of 493029
+ 156002 string characters out of 6136233
  338945 words of memory out of 5000000
- 14733 multiletter control sequences out of 15000+600000
- 10943 words of font info for 40 fonts, out of 8000000 for 9000
+ 14734 multiletter control sequences out of 15000+600000
+ 11250 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,7n,35p,723b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -466,10 +471,10 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb>
-Output written on Guide.pdf (2 pages, 126666 bytes).
+Output written on Guide.pdf (3 pages, 129423 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
