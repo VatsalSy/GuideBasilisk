@@ -1,0 +1,5 @@
+view (camera = "iso");
+box();
+draw_vof("f");
+cells();
+
