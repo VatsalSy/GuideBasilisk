@@ -121,24 +121,24 @@ event movie (t += 1e-2)
   draw_vof ("f");
   box ();
 #endif // 3D
-  static FILE * fp = popen ("ppm2mp4 > movie.mp4", "w");
+  static FILE * fp = popen ("ppm2mp4 movie.mp4", "w");
   save (fp = fp);
 }
 
 event snapshot (t = 0; t += 0.1)
 {
   dump (file = "dump");
-  char nameGfs[80];
-  sprintf (nameGfs, "intermediateGfs/snapshot-%2.1f.gfs", t);
-  output_gfs (file = nameGfs, t = t);
+  // char nameGfs[80];
+  // sprintf (nameGfs, "intermediateGfs/snapshot-%2.1f.gfs", t);
+  // output_gfs (file = nameGfs, t = t);
   char nameBview[80];
   sprintf (nameBview, "intermediateBview/snapshot-%2.1f", t);
   dump (file = nameBview);
 }
-event gfsview (i++) {
-  static FILE * fp = popen ("gfsview3D", "w");
-  output_gfs (fp);
-}
+// event gfsview (i++) {
+//   static FILE * fp = popen ("gfsview3D", "w");
+//   output_gfs (fp);
+// }
 
 
 
